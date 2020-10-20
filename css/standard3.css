@@ -25,8 +25,8 @@ a:hover {
 main {
   display:grid;
   grid-template-columns: 2fr 2fr ;
-  grid-auto-rows:min-content;
-  grid-gap:1rem;
+  grid-template-rows:min-content;
+  grid-gap: 2rem;
   max-width: 60vw;
   margin: 0 auto;
 }
@@ -34,15 +34,15 @@ main {
 
 
 .intro-block {
-  grid-column:1 / 3;
+  grid-column:1 / 2;
 }
 
 .p1 {
-  grid-column:1 / 3;
+  grid-column:1 / 2;
 }
 
 .p2 {
-  grid-column:1 / 3;
+  grid-column:1 / 2;
 }
 
 .p6 {
@@ -52,17 +52,18 @@ main {
 .quotep3 {
   grid-column:2;
   border-top: 1px solid #ccc;
-  padding: 0rem 0;
+  grid-row:2 / 3;
 }
 
 .p4 {
-  grid-column:1 / 3;
-  border-top: 1px solid #ccc;
-  padding: 1rem 0;
+  grid-column:2 / 3;
+  padding: 2rem 0;
+  grid-row:3 / 4;
 }
 
 .p5 {
-  grid-column:1 / 3;
+  grid-column:2 / 3;
+  grid-row:4 / 5;
 }
 
 
@@ -82,7 +83,7 @@ h2 {
 h3 {
   font-size:1.5rem;
   font-weight:400;
-
+  line-height: 2.5;
 }
 h4 {
   font-size:1rem;
@@ -111,11 +112,11 @@ p {
 }
 
 .pull-quote {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-family: 'Lora', serif;
   line-height: 1.5;
   font-weight:400;
-  padding:2rem;
+  
 }
 
 img {

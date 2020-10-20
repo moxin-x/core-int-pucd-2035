@@ -22,6 +22,16 @@ a:hover {
   color: #ae7f3d;
 }
 
+b {
+  text-decoration: underline;
+  color: #ae7f3d;
+}
+
+b:hover {
+  text-decoration: none;
+  color: #ae7f3d;
+}
+
 main {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -80,11 +90,19 @@ h4 {
 
 
 li {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
+
+li {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif; 
+  line-height: .5;
+  padding: 1rem 0;
+}
+
 
 p {
   font-size: 1.125rem;

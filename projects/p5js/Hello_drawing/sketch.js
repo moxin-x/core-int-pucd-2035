@@ -14,7 +14,7 @@ let current;
 let previous;
 
 function setup() {
-  createCanvas(720, 400);
+  createCanvas(1200, 800);
   current = createVector(0,0);
   previous = createVector(0,0);
 };
@@ -121,8 +121,8 @@ class Particle {
   // Draw particle and connect it with a line
   // Draw a line to another
   display(other) {
-    stroke(0, this.lifespan);
-    fill(0, this.lifespan/2);    
+    stroke(225,222,187, this.lifespan);
+    fill(21,12,1, this.lifespan/2);    
     ellipse(this.position.x,this.position.y, 8, 8);    
     // If we need to draw a line
     if (other) {

@@ -6,7 +6,7 @@ let input, button, greeting;
 
 function setup() {
   // create canvas
-  createCanvas(710, 400);
+  createCanvas(1200, 800);
 
   input = createInput();
   input.position(20, 65);
@@ -29,7 +29,7 @@ function greet() {
 
   for (let i = 0; i < 200; i++) {
     push();
-    fill(random(255), 255, 255);
+    fill(random(21), 12, 1);
     translate(random(width), random(height));
     rotate(random(2 * PI));
     text(name, 0, 0);

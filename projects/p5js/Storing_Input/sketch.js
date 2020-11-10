@@ -12,9 +12,9 @@ let mx = [];
 let my = [];
 
 function setup() {
-  createCanvas(720, 400);
+  createCanvas(1200, 800);
   noStroke();
-  fill(255, 153);
+  fill(225,222,187);
   for (let i = 0; i < num; i++) {
     mx.push(i);
     my.push(i);
@@ -22,7 +22,7 @@ function setup() {
 }
 
 function draw() {
-  background(237, 34, 93);
+  background(200);
 
   // Cycle through the array, using a different entry on each frame.
   // Using modulo (%) like this is faster than moving all the values over.

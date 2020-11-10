@@ -12,7 +12,7 @@ let mx = [];
 let my = [];
 
 function setup() {
-  createCanvas(1200, 800);
+  createCanvas(1500, 800);
   noStroke();
   fill(225,222,187);
   for (let i = 0; i < num; i++) {

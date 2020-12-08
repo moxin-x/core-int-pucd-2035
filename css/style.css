@@ -38,10 +38,15 @@ main {
 .self {
   grid-column:2 / 3;
   grid-row: 4 / 5;
-  padding-left: rem;
-  padding-right: rem;
+ 
 }
 
+.end {
+  grid-column:2 / 3;
+  grid-row: 4 / 5;
+
+
+}
 .statement {
   grid-column:1 / 2;
 }
@@ -121,10 +126,7 @@ p {
   padding:0rem;
 
 }
-.self {
-  font-size: 0.875rem;
-  font-family: 'Josefin Sans', sans-serif;
-  padding-top: 0rem;
+
 
 img {
   display: block;
@@ -132,7 +134,7 @@ img {
 }
 
 figcaption {
-  font-size: 0.275rem;
+  font-size: 0.775rem;
   font-family: 'Josefin Sans', sans-serif;
   padding-top: 0rem;
 }

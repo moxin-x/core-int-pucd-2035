@@ -37,8 +37,9 @@ main {
 
 .self {
   grid-column:2 / 3;
-  grid-row: 3 / 4;
-  padding-left: 0rem;
+  grid-row: 4 / 5;
+  padding-left: rem;
+  padding-right: rem;
 }
 
 .statement {
@@ -50,7 +51,7 @@ main {
 }
 .projects {
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 
 .item {
@@ -118,6 +119,12 @@ p {
   line-height: 1.2;
   font-weight:700;
   padding:0rem;
+
+}
+.self {
+  font-size: 0.875rem;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 0rem;
 
 img {
   display: block;

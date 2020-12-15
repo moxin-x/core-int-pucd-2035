@@ -11,6 +11,9 @@ body {
   
   color:#333F48;
   background-image: url(../img/b.jpg);
+  background-position: left;
+  background-repeat: repeat-x;
+ 
 }
 
 main {

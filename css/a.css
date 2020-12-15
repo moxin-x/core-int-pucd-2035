@@ -1,0 +1,163 @@
+
+html {
+  font-size: .875rem;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #d2c0a9;
+}
+
+
+.first {
+  position:absolute;
+}
+
+.second {
+  position:absolute;
+}
+.third {
+  position:absolute;
+}
+.fourth {
+  position:absolute;
+}
+
+
+h1, h2, h3, h4, h5, {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+
+}
+h1 {
+width: 73px;
+height: 139px;
+left: 259px;
+top: 1147px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 96px;
+line-height: 127px;
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.2);
+
+}
+
+h2 {
+
+width: 73px;
+height: 139px;
+left: 273px;
+top: 1147px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 96px;
+line-height: 127px;
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+h3 {
+
+width: 73px;
+height: 139px;
+left: 259px;
+top: 1147px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 96px;
+line-height: 127px;
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+h4 {
+
+width: 73px;
+height: 139px;
+left: 273px;
+top: 1147px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 96px;
+line-height: 127px;
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.4);
+}
+
+/* ===== == = === 48em (768px) === = == ===== */
+
+@media only screen and (min-width : 450px) {
+
+  html {
+    font-size: 0.36rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #000;
+  }
+
+/* ===== == = === 48em (768px) === = == ===== */
+
+@media only screen and (min-width : 493px) {
+
+  html {
+    font-size: 0.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #000;
+  }
+/* ===== == = === 48em (768px) === = == ===== */
+
+@media only screen and (min-width : 665px) {
+
+  html {
+    font-size: 0.67rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #000;
+  }
+
+/* ===== == = === 48em (768px) === = == ===== */
+
+@media only screen and (min-width : 855px) {
+
+  html {
+    font-size: 0.75rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #000;
+  }
+
+
+/* ===== == = === 68.75em (1100px) === = == ===== */
+
+@media only screen and (min-width : 958px) {
+
+  html {
+    font-size: 0.85rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #000;
+  }
+
+
+/* ===== == = === 68.75em (1100px) === = == ===== */
+
+@media only screen and (min-width : 1092px) {
+
+  html {
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #000;
+  }
+
+
+
+

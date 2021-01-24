@@ -9,7 +9,10 @@ html {
 
 body {
   
-
+background-image: url(../img/a.tiff);
+  background-position: left;
+  background-repeat: repeat-x;
+ 
 
 }
 
